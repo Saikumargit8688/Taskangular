@@ -11,7 +11,7 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-
+import {MatTabsModule} from '@angular/material/tabs';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatInputModule} from '@angular/material/input';
 
@@ -34,6 +34,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutComponents } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
 import {MatExpansionModule} from '@angular/material/expansion';
+import { EmplyeeDataComponent } from './emplyee-data/emplyee-data.component';
 
 
 
@@ -50,6 +51,7 @@ import {MatExpansionModule} from '@angular/material/expansion';
     ContactUsComponent,
     AboutComponents,
     FaqComponent,
+    EmplyeeDataComponent,
 
    
   ],
@@ -76,7 +78,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     MatDatepickerModule,
     MatNativeDateModule,
     MatOptionModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatTabsModule,
   ]
 })
 export class DashboardModule { }

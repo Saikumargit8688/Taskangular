@@ -1,0 +1,22 @@
+table{
+    width: 100%;
+   }
+   th{
+    background-color: #00ff55;
+    color: #050404;
+    font-size: 20px;
+   }
+   td{
+    font-size: 16px;
+    min-width: 100px;
+    padding: 10px 40px;
+    color: #0f0e0e;
+    background-color: rgb(234, 227, 7);
+   }
+   .mat-elevation-z8{
+    background-color: #e0d2e0;
+    color: #fff;
+   }
+   th.mat-header-cell{
+    background-color: blue;
+   }

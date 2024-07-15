@@ -1,4 +1,4 @@
-<mat-toolbar style="background-color: rgb(42, 165, 58);">
+<mat-toolbar style="background-color: rgb(231, 20, 239);">
     
     <a [routerLink]="['/login']" class="primary"> 
       <img src="https://logowik.com/content/uploads/images/179_angular.jpg" alt="Logo" class="logo"/></a>
@@ -8,7 +8,7 @@
     <mat-icon> <a [routerLink]="['/login']" class="primary">login</a></mat-icon>
     <div class="login">Login</div>
 
-    <mat-icon> <a [routerLink]="['/dashboard/home']" class="primary">home</a></mat-icon>
+    <mat-icon> <a [routerLink]="['/dashboard/home']" class="danger">home</a></mat-icon>
     <div class="home">Home</div>
 
     <mat-icon> <a [routerLink]="['/dashboard/about']" class="primary">announcement</a></mat-icon>
@@ -22,6 +22,8 @@
     
     <mat-icon> <a [routerLink]="['/dashboard/country']" class="primary">class</a></mat-icon>
     <div class="country">Country</div>
+    <mat-icon> <a [routerLink]="['/dashboard/emplyee']" class="primary">tag_faces</a></mat-icon>
+    <div class="country">Emplyee</div>
    
  <button class="btn" mat-button (click)="openChangePassword()">ChangePassword</button>
    

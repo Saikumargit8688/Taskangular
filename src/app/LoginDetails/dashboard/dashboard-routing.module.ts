@@ -6,6 +6,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutComponents } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
+import { EmplyeeDataComponent } from './emplyee-data/emplyee-data.component';
 
 const routes: Routes = [
   {
@@ -33,7 +34,10 @@ const routes: Routes = [
     component:FaqComponent
   },
   
- 
+ {
+  path:"emplyee",
+  component:EmplyeeDataComponent
+ }
 
 ];
 
