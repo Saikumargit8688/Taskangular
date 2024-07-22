@@ -7,6 +7,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutComponents } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
 import { EmplyeeDataComponent } from './emplyee-data/emplyee-data.component';
+import { LandingPageComponent } from '../energy-dashboard/landing-page/landing-page.component';
 
 const routes: Routes = [
   {
@@ -37,8 +38,11 @@ const routes: Routes = [
  {
   path:"emplyee",
   component:EmplyeeDataComponent
- }
-
+ },
+{
+  path:"landing",
+  component:LandingPageComponent
+}
 ];
 
 @NgModule({

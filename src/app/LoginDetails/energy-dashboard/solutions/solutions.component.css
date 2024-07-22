@@ -1,0 +1,116 @@
+.solution{
+    text-align: center;
+    background-color: hwb(348 66% 9%);
+  width: auto;
+  height: auto;
+    
+}
+.solution-btn{
+    margin-right: 68rem;
+  
+}
+
+
+ .key h1{
+    margin-right: 31rem;
+    font-size: 80px;
+    margin-top: 100px;
+}
+.key{
+    margin-bottom: 170px;
+}
+.solution .ev{
+    margin-right: 55rem;
+    margin-top: 80px;
+}
+.solution .ev h1{
+    margin-right: 5rem;
+}
+.solution .ev mat-icon{
+    margin-right: 12rem;
+    background-color: greenyellow;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+.solution .ev p{
+    text-align: justify;
+    margin-left: 3rem;
+    font-size: 12px;
+}
+.solution .ev .read{
+    margin-right: 9rem;
+}
+
+.solution .solar{
+    margin-left: 35rem;
+    margin-top: -250px;
+}
+.solar{
+    margin-top: -250px;
+    margin-bottom: 100px;
+}
+.solar mat-icon{
+    margin-right: 29rem;
+    background: greenyellow;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+.solar{
+    margin-top: 10px;
+}
+.solar h1{
+    margin-right: 22rem;
+}
+
+.solar .read{
+    margin-right: 23rem;
+}
+.solution .wind{
+    margin-right: 45rem;
+}
+.wind mat-icon{
+    margin-right: 23rem;
+    background: greenyellow;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+.wind h1{
+    margin-right: 17rem;
+}
+.wind p{
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 3rem;
+}
+.wind .read{
+    margin-right: 18rem;
+}
+
+.hydro{
+    margin-left: 40rem;
+    margin-top: -220px;
+}
+.hydro mat-icon{
+    margin-right: 32rem;
+    background:greenyellow;
+    padding: 10px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+}
+.hydro h1{
+    margin-right: 25rem;
+}
+.hydro p{
+   text-align: justify;
+   margin-left: 1rem;
+ 
+}
+.hydro .read{
+    margin-right: 24rem;
+}
+.name{
+    margin-bottom: 50px;
+}

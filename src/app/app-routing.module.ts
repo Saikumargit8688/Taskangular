@@ -4,7 +4,7 @@ import { ForgetPasswordComponent } from './LoginDetails/login/forget-password/fo
 import { LoginPageComponent } from './LoginDetails/login/login-page/login-page.component';
 import { CountryApiComponent } from './LoginDetails/dashboard/country-api/country-api.component';
 import { DashboardComponent } from './LoginDetails/dashboard/dashboard/dashboard.component';
-
+import { LandingPageComponent } from './LoginDetails/energy-dashboard/landing-page/landing-page.component';
 const routes: Routes = [
   {
     path: "login",
@@ -16,7 +16,11 @@ const routes: Routes = [
       import("./LoginDetails/dashboard/dashboard.module").then(m=>m.DashboardModule)
   },
  
-
+{
+  path: "landing",
+  loadChildren:() =>
+    import("./LoginDetails/energy-dashboard/energy-dashboard.module").then(m=>m.EnergyDashboardModule)
+}
 
 ];
 
